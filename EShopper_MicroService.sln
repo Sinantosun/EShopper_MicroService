@@ -19,12 +19,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{7BF53737-FC83-45D9-91F2-279EF65AA342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Catalog", "Services\Catalog\EShopper.Catalog\EShopper.Catalog.csproj", "{7662D743-744D-49D2-8050-55B0D2080282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Catalog", "Services\Catalog\EShopper.Catalog\EShopper.Catalog.csproj", "{7662D743-744D-49D2-8050-55B0D2080282}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requeriments", "Requeriments", "{FC509E7B-A457-41B8-8932-12E8F49F069E}"
 	ProjectSection(SolutionItems) = preProject
 		Port.txt = Port.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Discount", "Services\Discount\EShopper.Discount\EShopper.Discount.csproj", "{EAA369CC-97A6-4E4C-88C9-FD7368724328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{7662D743-744D-49D2-8050-55B0D2080282}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7662D743-744D-49D2-8050-55B0D2080282}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7662D743-744D-49D2-8050-55B0D2080282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA369CC-97A6-4E4C-88C9-FD7368724328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA369CC-97A6-4E4C-88C9-FD7368724328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA369CC-97A6-4E4C-88C9-FD7368724328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA369CC-97A6-4E4C-88C9-FD7368724328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{2C09A7D1-1931-4917-8934-7C14D23BC3E6} = {05115146-C2DE-416D-9946-85DBDF4E21F0}
 		{0424C4BE-B448-497B-8505-D6897E52AFD6} = {05115146-C2DE-416D-9946-85DBDF4E21F0}
 		{7662D743-744D-49D2-8050-55B0D2080282} = {249323BD-6FF1-45C3-AD63-BB1553CE7E4A}
+		{EAA369CC-97A6-4E4C-88C9-FD7368724328} = {2C09A7D1-1931-4917-8934-7C14D23BC3E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {169C7901-C5D5-4BAF-981C-80A2273A634E}

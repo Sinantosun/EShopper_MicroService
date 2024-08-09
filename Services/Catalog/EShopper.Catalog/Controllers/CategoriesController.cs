@@ -21,7 +21,7 @@ namespace EShopper.Catalog.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAllCategories()
         {
             var values = await _categoryService.GetAllAsync();
             var mappedValue = _mapper.Map<List<ResultCategoryDto>>(values);

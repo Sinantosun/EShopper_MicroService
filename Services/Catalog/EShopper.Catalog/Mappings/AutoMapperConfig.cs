@@ -12,6 +12,7 @@ namespace EShopper.Catalog.Mappings
         {
             CreateMap<Product, CreateProductDto>().ReverseMap();
             CreateMap<Product, UpdateProductDto>().ReverseMap();
+            CreateMap<Product, ResultProductByIdDto>().ReverseMap();
             CreateMap<Product, ResultProductDto>().ReverseMap();
 
             CreateMap<Category, ResultCategoryByIdDto>().ReverseMap();
@@ -22,6 +23,7 @@ namespace EShopper.Catalog.Mappings
             CreateMap<Feature, CreateFeatureDto>().ReverseMap();
             CreateMap<Feature, UpdateFeatureDto>().ReverseMap();
             CreateMap<Feature, ResultFeatureDto>().ReverseMap();
+            CreateMap<Feature, ResultFeatureByIdDto>().ReverseMap();
         }
     }
 }
