@@ -1,2 +1,3 @@
 catalog => https://localhost:7200
 discount => https://localhost:7201
+order => https://localhost:7202

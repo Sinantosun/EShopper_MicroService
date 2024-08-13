@@ -1,0 +1,6 @@
+@EShopper.Order.WebAPI_HostAddress = http://localhost:5295
+
+GET {{EShopper.Order.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
