@@ -28,17 +28,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requeriments", "Requeriment
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Discount", "Services\Discount\EShopper.Discount\EShopper.Discount.csproj", "{EAA369CC-97A6-4E4C-88C9-FD7368724328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Order.EntityLayer", "Services\Order\EShopper.Order.EntityLayer\EShopper.Order.EntityLayer.csproj", "{9EC89FD4-BAB6-4463-8085-6C020B3C964E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Order.EntityLayer", "Services\Order\EShopper.Order.EntityLayer\EShopper.Order.EntityLayer.csproj", "{9EC89FD4-BAB6-4463-8085-6C020B3C964E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Order.DataAccsessLayer", "Services\Order\EShopper.Order.DataAccsessLayer\EShopper.Order.DataAccsessLayer.csproj", "{A54136E2-0410-4136-B570-510D720D3E69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Order.DataAccsessLayer", "Services\Order\EShopper.Order.DataAccsessLayer\EShopper.Order.DataAccsessLayer.csproj", "{A54136E2-0410-4136-B570-510D720D3E69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Order.BusinnesLayer", "Services\Order\EShopper.Order.BusinnesLayer\EShopper.Order.BusinnesLayer.csproj", "{20802893-4298-46F3-A2D7-3E9F8AD6B2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Order.BusinnesLayer", "Services\Order\EShopper.Order.BusinnesLayer\EShopper.Order.BusinnesLayer.csproj", "{20802893-4298-46F3-A2D7-3E9F8AD6B2DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Order.WebAPI", "Services\Order\EShopper.Order.WebAPI\EShopper.Order.WebAPI.csproj", "{394322CC-1203-4BEA-81FE-B4D828804777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Order.WebAPI", "Services\Order\EShopper.Order.WebAPI\EShopper.Order.WebAPI.csproj", "{394322CC-1203-4BEA-81FE-B4D828804777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Order.DtoLayer", "Services\Order\EShopper.Order.DtoLayer\EShopper.Order.DtoLayer.csproj", "{48FE3462-1E22-4309-94C5-44ED93ABCD29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Order.DtoLayer", "Services\Order\EShopper.Order.DtoLayer\EShopper.Order.DtoLayer.csproj", "{48FE3462-1E22-4309-94C5-44ED93ABCD29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{8AE4F500-7047-4EF0-AACE-10FE922DA052}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.IdentityServer", "IdentityServer\EShopper.IdentityServer\EShopper.IdentityServer.csproj", "{5E2D84AE-7995-4BD8-A642-DBE48AA2F71F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{48FE3462-1E22-4309-94C5-44ED93ABCD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FE3462-1E22-4309-94C5-44ED93ABCD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FE3462-1E22-4309-94C5-44ED93ABCD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2D84AE-7995-4BD8-A642-DBE48AA2F71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2D84AE-7995-4BD8-A642-DBE48AA2F71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2D84AE-7995-4BD8-A642-DBE48AA2F71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2D84AE-7995-4BD8-A642-DBE48AA2F71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{20802893-4298-46F3-A2D7-3E9F8AD6B2DE} = {971BB88E-E345-4973-B03D-ED6BE43363FC}
 		{394322CC-1203-4BEA-81FE-B4D828804777} = {971BB88E-E345-4973-B03D-ED6BE43363FC}
 		{48FE3462-1E22-4309-94C5-44ED93ABCD29} = {971BB88E-E345-4973-B03D-ED6BE43363FC}
+		{5E2D84AE-7995-4BD8-A642-DBE48AA2F71F} = {7BF53737-FC83-45D9-91F2-279EF65AA342}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {169C7901-C5D5-4BAF-981C-80A2273A634E}
