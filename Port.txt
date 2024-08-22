@@ -3,4 +3,5 @@ Identity Server => https://localhost:5001
 catalog => https://localhost:7200
 discount => https://localhost:7201
 order => https://localhost:7202
+message => https://localhost:7203
 

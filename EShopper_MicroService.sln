@@ -50,13 +50,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructrue", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AC43B6D9-8627-464D-A9C6-B4D3C429642F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Message.Application", "Services\Message\Core\EShopper.Message.Application\EShopper.Message.Application.csproj", "{E5CE463A-EA2C-4676-A6A1-B5FF2B280C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Message.Application", "Services\Message\Core\EShopper.Message.Application\EShopper.Message.Application.csproj", "{E5CE463A-EA2C-4676-A6A1-B5FF2B280C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Message.Domain", "Services\Message\Core\EShopper.Message.Domain\EShopper.Message.Domain.csproj", "{4101BAB9-8A42-4C48-B75B-014253418800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Message.Domain", "Services\Message\Core\EShopper.Message.Domain\EShopper.Message.Domain.csproj", "{4101BAB9-8A42-4C48-B75B-014253418800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Message.Persistance", "Services\Message\Infrastructrue\EShopper.Message.Persistance\EShopper.Message.Persistance.csproj", "{0FE7FE15-A38D-4DDB-95F5-9136C971B05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Message.Persistance", "Services\Message\Infrastructrue\EShopper.Message.Persistance\EShopper.Message.Persistance.csproj", "{0FE7FE15-A38D-4DDB-95F5-9136C971B05E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Message.WebAPI", "Presentation\EShopper.Message.WebAPI\EShopper.Message.WebAPI.csproj", "{B0109E08-F592-4E70-8B6E-FE2D0A4A14D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EShopper.Message.WebAPI", "Presentation\EShopper.Message.WebAPI\EShopper.Message.WebAPI.csproj", "{B0109E08-F592-4E70-8B6E-FE2D0A4A14D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopper.Basket", "Services\Basket\EShopper.Basket\EShopper.Basket.csproj", "{E13D2653-D6FD-4C1D-9CFE-63FD1F163EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -112,6 +114,10 @@ Global
 		{B0109E08-F592-4E70-8B6E-FE2D0A4A14D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0109E08-F592-4E70-8B6E-FE2D0A4A14D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0109E08-F592-4E70-8B6E-FE2D0A4A14D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13D2653-D6FD-4C1D-9CFE-63FD1F163EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13D2653-D6FD-4C1D-9CFE-63FD1F163EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13D2653-D6FD-4C1D-9CFE-63FD1F163EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13D2653-D6FD-4C1D-9CFE-63FD1F163EDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +144,7 @@ Global
 		{4101BAB9-8A42-4C48-B75B-014253418800} = {BE60AD1F-A275-41C5-8BFD-9B85324A1851}
 		{0FE7FE15-A38D-4DDB-95F5-9136C971B05E} = {C7C866E8-EBA5-4F4A-B193-09353C41203D}
 		{B0109E08-F592-4E70-8B6E-FE2D0A4A14D8} = {AC43B6D9-8627-464D-A9C6-B4D3C429642F}
+		{E13D2653-D6FD-4C1D-9CFE-63FD1F163EDD} = {C65332E4-C032-4A00-9EC6-ADCFD156F1F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {169C7901-C5D5-4BAF-981C-80A2273A634E}

@@ -14,9 +14,4 @@
     <ProjectReference Include="..\EShopper.Message.Domain\EShopper.Message.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Mediator\Queries\" />
-    <Folder Include="Features\Mediator\Results\" />
-  </ItemGroup>
-
 </Project>

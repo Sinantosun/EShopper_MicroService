@@ -1,0 +1,6 @@
+@EShopper.Basket_HostAddress = http://localhost:5135
+
+GET {{EShopper.Basket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
